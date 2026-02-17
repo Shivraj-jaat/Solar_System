@@ -1,0 +1,160 @@
+body {
+    background-image: url(./img/bg.webp);
+    background-size: cover;
+}
+
+.name {
+    text-align: center;
+    color: white;
+
+}
+
+#first {
+    height: 900px;
+    width: 900px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    animation: rotate 400s linear infinite;
+    margin: 70px auto;
+}
+
+.neptune-img {
+    border-radius: 50%;
+    position: fixed;
+    left: 565px;
+}
+
+#second {
+    height: 800px;
+    width: 800px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    margin: 50px auto;
+    animation: rotate 332s linear infinite;
+
+}
+
+.uranus-img {
+    border-radius: 50%;
+    position: fixed;
+    left: 490px;
+}
+
+#third {
+    height: 700px;
+    width: 700px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    margin: 50px auto;
+    animation: rotate 262s linear infinite;
+
+}
+
+.saturn-img {
+    border-radius: 50%;
+    position: fixed;
+    left: 440px;
+}
+
+#fourth {
+    height: 600px;
+    width: 600px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    margin: 50px auto;
+    animation: rotate 198s linear infinite;
+}
+
+.jupiter-img {
+    border-radius: 50%;
+    position: fixed;
+    left: 400px;
+}
+
+#fifth {
+    height: 400px;
+    width: 400px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    margin: 50px auto;
+    animation: rotate 142s linear infinite;
+    position: relative;
+    top: 50px;
+}
+
+.mars-img {
+    border-radius: 50%;
+    position: fixed;
+    left: 255px;
+}
+
+#sixth {
+    height: 300px;
+    width: 300px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    margin: 50px auto;
+    animation: rotate 92s linear infinite;
+}
+
+.earth-img {
+    border-radius: 50%;
+    position: fixed;
+    left: 200px;
+}
+
+#seventh {
+    height: 200px;
+    width: 200px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    animation: rotate 50s linear infinite;
+
+}
+
+.venus-img {
+    border-radius: 50%;
+    position: fixed;
+    left: 135px;
+}
+
+#eighth {
+    height: 100px;
+    width: 100px;
+    border: 1px dashed grey;
+    border-radius: 50%;
+    margin: 50px auto;
+    animation: rotate 20s linear infinite;
+
+}
+
+.mercury-img {
+
+    border-radius: 50%;
+    position: fixed;
+    left: 70px;
+}
+
+.sun-img {
+    border-radius: 50%;
+    position: fixed;
+    top: 16px;
+    left: 14px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
