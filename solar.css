@@ -3,13 +3,14 @@ body {
     background-size: cover;
 }
 
-.name {
+.head-name {
     text-align: center;
     color: white;
-
 }
 
-#first {
+/*      =========================== Neptune =========================      */
+
+#neptune-orbit {
     height: 900px;
     width: 900px;
     border: 1px dashed grey;
@@ -27,7 +28,9 @@ body {
     left: 565px;
 }
 
-#second {
+/*      =========================== Uranus =========================      */
+
+#uranus-orbit {
     height: 800px;
     width: 800px;
     border: 1px dashed grey;
@@ -43,7 +46,9 @@ body {
     left: 490px;
 }
 
-#third {
+/*      =========================== Saturn =========================      */
+
+#saturn-orbit{
     height: 700px;
     width: 700px;
     border: 1px dashed grey;
@@ -59,7 +64,9 @@ body {
     left: 440px;
 }
 
-#fourth {
+/*      =========================== Jupiter =========================      */
+
+#jupiter-orbit {
     height: 600px;
     width: 600px;
     border: 1px dashed grey;
@@ -74,7 +81,9 @@ body {
     left: 400px;
 }
 
-#fifth {
+/*      =========================== Mars =========================      */
+
+#mars-orbit {
     height: 400px;
     width: 400px;
     border: 1px dashed grey;
@@ -91,7 +100,9 @@ body {
     left: 255px;
 }
 
-#sixth {
+/*      =========================== Earth =========================      */
+
+#earth-orbit {
     height: 300px;
     width: 300px;
     border: 1px dashed grey;
@@ -106,7 +117,9 @@ body {
     left: 200px;
 }
 
-#seventh {
+/*      =========================== Venus =========================      */
+
+#venus-orbit {
     height: 200px;
     width: 200px;
     border: 1px dashed grey;
@@ -125,7 +138,9 @@ body {
     left: 135px;
 }
 
-#eighth {
+/*      =========================== mercury =========================      */
+
+#mercury-orbit {
     height: 100px;
     width: 100px;
     border: 1px dashed grey;
@@ -142,12 +157,16 @@ body {
     left: 70px;
 }
 
+/*      =========================== Sun =========================      */
+
 .sun-img {
     border-radius: 50%;
     position: fixed;
     top: 16px;
     left: 14px;
 }
+
+/*      =========================== Animation =========================      */
 
 @keyframes rotate {
     from {
